@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Site</title>
 
-
   <!-- to link BootStrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -21,31 +20,27 @@
 
 <body>
   <!-- Header 1 -->
-  <header class="row p-3">
-    <div class="col-2">
-
-    </div>
-    <div class="col-7 text-white">
+  <header class="row p-2">
+    <div class="col-2"> </div>
+    <div class="d-flex col-7 text-white align-items-center">
       <span class="mdi mdi-map-marker-outline text-danger"></span>
-      <span> 4488 Philadelphia Avenue, Salt Lake City, UT 84101</span>
+      <span> 4488 Philadelphia Avenue, Salt Lake City, UT 84101 </span>
       <span class="mdi mdi-phone text-danger"></span>
       <span>+18001231234</span>
     </div>
     <div class="col-2 text-white">
-      <span class="border border-danger border-5 rounded bg-danger">Join Us Now</span>
+      <button class="btn btn-danger">Join Us Now</span>
     </div>
   </header>
   <!-- Header 2 -->
   <header class="d-flex row p-4 bg-black">
     <div class="col-2"></div>
-    </div>
     <div class="col-2 text-danger fs-3 fw-bold">
       <span class="mdi mdi-run-fast"></span>
       <span class="fst-italic">sporty</span>
       <!-- couldnt figure out the italics FOREVER -->
     </div>
-    <div class="col-2">
-    </div>
+    <div class="col-2"> </div>
     <div class="d-flex col-4 text-white justify-content-evenly align-items-center">
       <span>Home</span>
       <span>About</span>
@@ -53,9 +48,23 @@
       <span>Membership</span>
       <span>Blog</span>
       <span>Contact</span>
-
     </div>
   </header>
+  <!-- TODO fix mobile view at least for headers -->
+  <!-- TODO fix horizontal scroll -->
+  <main>
+    <!-- hero -->
+    <img class="container-fluid flip-horizontally p-0"
+      src="https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Athlete">
+    <div>
+      <span>WELCOME TO OUR SPORTS CLUB --</span>
+      <span>Join Now Our Youth Squad Club</span>
+      <button class="btn btn-primary fs-5"> Join Our Club </button>
+    </div>
+    <!--  after hero -->
+  </main>
+
 
 </body>
 
