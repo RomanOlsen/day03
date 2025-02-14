@@ -23,4 +23,10 @@ header {
 
 }
 
+.tshadow {
+  text-shadow: 2px 2px #000000;
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_text-shadow.php */
+
 .hero::after {}
